@@ -1,0 +1,20 @@
+git clone
+
+pip install -r requirements.txt
+
+Entorno Virtual
+
+python -m venv .venv
+
+devDependencies
+
+dependencies
+
+pip install python-dotenv
+pip install quart
+pip install sqlalchemy
+pip install aiomysql
+
+RUN APP
+
+python ./app/main.py
